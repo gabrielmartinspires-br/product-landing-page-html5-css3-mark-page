@@ -8,7 +8,11 @@ body {
 header {
     display: flex;
     justify-content: center;
-    height: ;
+    height: ;    
+}
+.background-img {
+    background-image: url(../images/header-background.jpg);
+    height: auto;
 }
 .container {
     display: flex;
