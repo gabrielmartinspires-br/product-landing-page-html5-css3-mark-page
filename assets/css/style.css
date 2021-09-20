@@ -15,16 +15,24 @@ header {
 }
 .header {
     padding-top: 10rem;
-    padding-bottom: 10rem;
+    padding-bottom: 30rem;
     background-image: url(../images/header-background.jpg);
     background-size: cover;
-    text-align: center;
 }
 .container {
+    margin-top: -160px;
     display: flex;
     justify-content: space-between;
     width: 100%;
-    background-color: green;
+    position: fixed;
+}
+.text-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.discover-contact {
+    display: flex;
 }
 .logo {
     display: flex;
@@ -34,6 +42,7 @@ header {
     display: flex;
     align-items: center;
 }
+
 nav ul,
 nav li {
     list-style: none;
@@ -51,6 +60,5 @@ nav a {
 }
 nav .active a,
 nav a:hover {
-    background-color: #39aae1;
     color: #fff;
 }
