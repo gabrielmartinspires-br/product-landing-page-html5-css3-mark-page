@@ -75,3 +75,14 @@ nav .active a,
 nav a:hover {
     color: #fff;
 }
+.breve_sobre {
+    display: flex;
+    margin-top: 150px;
+}
+.text-sobre {
+    flex-wrap: wrap;
+    flex: 1;
+}
+.date-sobre {
+    flex: 1;
+}
