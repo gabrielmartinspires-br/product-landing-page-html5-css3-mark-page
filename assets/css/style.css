@@ -19,19 +19,23 @@ header {
     padding-bottom: 5rem;
     background-image: url(../images/header-background.jpg);
     background-size: cover;
+    width: 1400px;
 }
 .container {
-    margin-top: -650px;
     display: flex;    
     justify-content: space-between;
     width: 100%;
+}
+.fixar_cabecalho {
     position: fixed;
+    margin-top: -650px;
+    background-color: #24262a;
 }
 .text-container {
     display: flex;
     flex-direction: column;
     color: #fff;
-    margin-top: -350px;
+    margin-top: -450px;
     margin-left: 30px;
 }
 .text-container h1 {
