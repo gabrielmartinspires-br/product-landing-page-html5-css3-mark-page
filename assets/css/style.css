@@ -15,11 +15,15 @@ header {
     margin-left: auto;
 }
 .header {
-    padding-top: 50rem;
-    padding-bottom: 5rem;
+    padding-top: 500px;
+    padding-bottom: 5px;
     background-image: url(../images/header-background.jpg);
     background-size: cover;
-    width: 1400px;
+    width: 100%;
+}
+.barra_menu {
+    background-color: blue;
+    width: 600px;
 }
 .container {
     display: flex;    
@@ -28,14 +32,14 @@ header {
 }
 .fixar_cabecalho {
     position: fixed;
-    margin-top: -650px;
-    background-color: #24262a;
+    margin-top: -500px;
+    background-color: #;
 }
 .text-container {
     display: flex;
     flex-direction: column;
     color: #fff;
-    margin-top: -450px;
+    margin-top: -350px;
     margin-left: 30px;
 }
 .text-container h1 {
@@ -81,7 +85,7 @@ nav a:hover {
 }
 .breve_sobre {
     display: flex;
-    margin-top: 150px;
+    margin-top: 20px;
 }
 .text-sobre {
     flex-wrap: wrap;
